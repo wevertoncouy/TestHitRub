@@ -8,14 +8,14 @@ namespace TestGitHub
 {
     class Program
     {
-        static void EscrevaNaTela()
+        static void EscrevaNaTela(String txt)
         {
-            Console.WriteLine("Teste no Maq01");
+            Console.WriteLine(txt);
         }
         static void Main(string[] args)
         {
 
-            EscrevaNaTela();
+            Console.WriteLine("Teste no Maq01");
             Console.ReadKey();
         }
     }

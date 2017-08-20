@@ -16,6 +16,7 @@ namespace TestGitHub
         {
 
             Console.WriteLine("Teste no Maq01");
+            Console.WriteLine("Teste no Maq02");
             Console.ReadKey();
         }
     }
